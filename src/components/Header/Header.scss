@@ -1,0 +1,22 @@
+.header-container {
+    width: 100%;
+    border-bottom: 3px solid #000000;
+    background: inherit;
+
+    .header-wrapper {
+        padding: 15px;
+        color: #1F1F1F;
+        font-family: 'Roboto';
+        text-align: center;
+
+        .header-name {
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .header-sub {
+            padding-left: 5px;
+            font-size: 18px;
+        }
+    }
+}
