@@ -1,15 +1,81 @@
 .left-side-column-container {
     padding: 15px;
     width: 30%;
-    background: greenyellow;
     
     .left-side-column-wrapper {
+        font-family: 'Montserrat';
 
         .info-wrapper {
+            display: block;
+            width: 100%;
+            padding-bottom: 15px;
 
-            span {
+            .header {
                 display: block;
+                width: 100%;
+                color: #DB3F1E;
+                font-size: 20px;
+                font-weight: bold;
+                padding-bottom: 5px;
+            }
+            .category-block {
+                display: block;
+                padding-bottom: 10px;
+
+                .category {
+                    display: block;
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .information {
+                    font-family: 'Roboto';
+                    display: block;
+                    width: 100%;
+                    font-size: 12px;
+                    font-weight: 300;
+                }
             }
         }
+        .links-wrapper {
+            display: block;
+            width: 100%;
+
+            .header {
+                display: block;
+                width: 100%;
+                color: #DB3F1E;
+                font-size: 20px;
+                font-weight: bold;
+                padding-bottom: 5px;
+            }
+            .link-block {
+                display: block;
+                width: 100%;
+                padding-bottom: 10px;
+
+                .icon-wrapper {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    font-size: 14px;
+                    font-weight: bold;
+
+                    .icon {
+                        height: 20px;
+                    }
+                    .domain {
+                        padding-left: 3px;
+                    }
+                }
+                .link {
+                    font-family: 'Roboto';
+                    font-size: 12px;
+                    font-weight: 300;
+                    text-decoration: none;
+                }
+            }
+        }
+
     }
 }
