@@ -34,6 +34,23 @@ function Body() {
             ]
         }
     ];
+    const educationData = [
+        {
+            title: "Software Engineering, Universidad Politécnica de Madrid",
+            date: "Sep 2010 - May 2018",
+            ubication: "Madrid, Spain",
+        }
+    ];
+    const coursesData = [
+        {
+            title: "Introducción al desarrollo web con Angular, Cursos Tech Institue Samsung-UPM",
+            date: "Oct 2017"
+        },
+        {
+            title: "NgRx Essentials, NgSpain",
+            date: "Nov 2019"
+        }
+    ]
     
     return (
         <div className="body-container">
@@ -62,6 +79,34 @@ function Body() {
                                         );
                                     })}
                                 </ul>
+                            </div>
+                        );
+                    })}
+                </div>
+                <div className="education-wrapper">
+                    <span className="header">Education</span>
+                    {educationData.map(education => {
+                        return (
+                            <div className="education-block">
+                                <span className="title">{education.title}</span>
+                                <div className="localization-block">
+                                    <span className="date">{education.date}</span>
+                                    <div className="ubication-wrapper">
+                                        <img src={locationIcon} className="icon" alt="location" />
+                                        <span className="ubication">{education.ubication}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        );
+                    })}
+                </div>
+                <div className="courses-wrapper">
+                    <span className="header">Courses</span>
+                    {coursesData.map(course => {
+                        return (
+                            <div className="course-block">
+                                <span className="title">{course.title}</span>
+                                <span className="date">{course.date}</span>
                             </div>
                         );
                     })}
