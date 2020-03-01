@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.ad9cb3ad.chunk.css",
+    "main.js": "/my-resume/static/js/main.5ff06d5b.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.5ff06d5b.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.7db97161.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.7db97161.js.map",
+    "static/js/2.615a32ea.chunk.js": "/my-resume/static/js/2.615a32ea.chunk.js",
+    "static/js/2.615a32ea.chunk.js.map": "/my-resume/static/js/2.615a32ea.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "precache-manifest.f37ee6c0b626fe16f5106dcf8fe7238a.js": "/my-resume/precache-manifest.f37ee6c0b626fe16f5106dcf8fe7238a.js",
+    "service-worker.js": "/my-resume/service-worker.js",
+    "static/css/main.ad9cb3ad.chunk.css.map": "/my-resume/static/css/main.ad9cb3ad.chunk.css.map",
+    "static/js/2.615a32ea.chunk.js.LICENSE.txt": "/my-resume/static/js/2.615a32ea.chunk.js.LICENSE.txt",
+    "static/media/githubIcon.svg": "/my-resume/static/media/githubIcon.058a5b6f.svg",
+    "static/media/linkdinIcon.svg": "/my-resume/static/media/linkdinIcon.4d349cc1.svg",
+    "static/media/locationIcon.svg": "/my-resume/static/media/locationIcon.8fdf734a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7db97161.js",
+    "static/js/2.615a32ea.chunk.js",
+    "static/css/main.ad9cb3ad.chunk.css",
+    "static/js/main.5ff06d5b.chunk.js"
+  ]
+}
