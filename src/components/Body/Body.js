@@ -11,9 +11,9 @@ function Body() {
             date: "Jan 2018 - Present",
             ubication: "Madrid, Spain",
             tasks: [
-                "Development and maintenance of different web apps with Angula and ReactJS",
+                "Development and maintenance of different web apps with Angular and ReactJS",
                 "Development and maintenance of different hybrid apps with Ionic",
-                "Design and implementation of RESTful apis with MEAN techonologies and Firebase",
+                "Design and implementation of RESTful apis with MEAN technologies and Firebase",
                 "Tasks and projects estimations"
             ]
         },
@@ -43,13 +43,13 @@ function Body() {
     ];
     const coursesData = [
         {
-            title: "Introducción al desarrollo web con Angular, Cursos Tech Institue Samsung-UPM",
-            date: "Oct 2017"
-        },
-        {
             title: "NgRx Essentials, NgSpain",
             date: "Nov 2019"
-        }
+        },
+        {
+            title: "Introducción al desarrollo web con Angular, Cursos Tech Institute Samsung-UPM",
+            date: "Oct 2017"
+        }        
     ]
     
     return (

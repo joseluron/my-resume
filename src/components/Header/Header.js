@@ -7,7 +7,7 @@ function Header() {
         <div className="header-container">
             <div className="header-wrapper">
                 <span className="header-name">José Luis Coalla Cencerrado</span>
-                <span className="header-sub">Frontend Developer</span>
+                <span className="header-sub">Full-Stack Developer</span>
             </div>
         </div>
     );

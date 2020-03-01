@@ -8,6 +8,8 @@
         color: #1F1F1F;
         font-family: 'Montserrat';
         text-align: center;
+        display: flex;
+        flex-direction: column;
 
         .header-name {
             text-transform: uppercase;
