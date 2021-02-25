@@ -32,32 +32,11 @@ function LeftSideColumn() {
             href: "https://www.linkedin.com/in/jos%C3%A9-luis-coalla-cencerrado-797447138/"
         }
     ];
-    const skillsData = [
-        {
-            skill: "Angular 2+",
-            value: 5
-        }, 
-        {
-            skill: "Ionic",
-            value: 5
-        },
-        {
-            skill: "ReactJS",
-            value: 5
-        },
-        {
-            skill: "NodeJS",
-            value: 4
-        },
-        {
-            skill: "Git",
-            value: 4
-        },
-        {
-            skill: "REST",
-            value: 3
-        }
-    ];
+    const skillData = {
+        "front-end": ["ReactJs(NextJs/Gatsby)", "Redux", "Angular", "Ionic", "Sanity", "Firebase"],
+        "back-end": ["NodeJs", "Express", "MongoDB", "Restfull API", "GraphQL", "Headless CMS"],
+        "other": ["GIT", "Task Estimation", "Netlify"]
+    }
     const languagesData = [
         {
             language: "Spanish",
@@ -117,14 +96,15 @@ function LeftSideColumn() {
                 </div>
                 <div className="skills-wrapper">
                     <span className="header">Skills</span>
-                    {skillsData.map(skill => {
+                    {Object.keys(skillData).map(tech => {
                         return (
-                            <div className="skill-block">
-                                <span className="skill">{skill.skill}</span>
-                                <div className="value-wrapper">
-                                    {renderDotValue(skill.value)}
-                                    {renderDotDummy(5 - skill.value)}
-                                </div>
+                            <div className="skill-block" key={tech}>
+                                <span className="technology">{tech}</span>
+                                {skillData[tech].map(skill => {
+                                    return (
+                                        <span className="skill" key={skill}>{skill}</span>
+                                    );
+                                })}
                             </div>
                         );
                     })}

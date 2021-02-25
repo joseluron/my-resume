@@ -7,30 +7,49 @@ import './Body.scss';
 function Body() {
     const employmentData = [
         {
-            title: "Full-Stack Web Developer, Tribalyte Technologies",
-            date: "Jan 2018 - Present",
+            title: "Front-End Web Developer, ThePowerMBA",
+            date: "June 2020 - Present",
             ubication: "Madrid, Spain",
             tasks: [
-                "Development and maintenance of different web apps with Angular and ReactJS",
-                "Development and maintenance of different hybrid apps with Ionic",
-                "Design and implementation of RESTful apis with MEAN technologies and Firebase",
+                "Development and maintenance of ThePowerMBA; MBA related video courses academy webapp using ReactJS",
+                "Development and maintenance of the company data CMS using ReactJS",
+                "Implementation of RESTful apis within the App with Redux and Sagas to save the app data",
+                "Implementation of a full redesign of the main learning web app",
+                "Creation of the main learning web app product tour",
+                "Tasks estimations"
+            ]
+        },
+        {
+            title: "Front-End Web Developer, tiko Energy Solutions AG",
+            date: "Feb 2019 - Apr 2019",
+            ubication: "Zurich, Switzerland",
+            tasks: [
+                "Development and maintenance of TikoPowerApp; electricity usage and setting of inteligent houses webapp using ReactJs and GraphQL",
+            ]
+        },
+        {
+            title: "Front-End Web Developer, Tribalyte Technologies",
+            date: "Jan 2018 - June 2020",
+            ubication: "Madrid, Spain",
+            tasks: [
+                "Development and maintenance of YouMedic; medical video sharing service webapp using Ionic, Angular and Firebase",
+                "Development and maintenance of Auditool; marketing hybrid app using Ionic and Angular",
+                "Development and maintenance of the Auditool CMS webapp using ReactJs and Firebase",
+                "Development and maintenance of MecaTrain; train screens viewing webapp using vanilla JavaScript",
+                "Development and maintenance of DecideInClick; personal decision making hybrid app using Ionic and Angular",
+                "Development and maintenance of TikoPowerApp; electricity usage and setting of inteligent houses hybrid app using Ionic, Angular and GraphQL",
+                "Development and maintenance of LoeWebApp; electronic architecture book webapp using ReactJS",
+                "Development and maintenance of FisiosApp; lungs post-surgery recovery hybrid app using Ionic and ReactJs",
+                "Design and implementation of RESTful apis with MEAN technologies, Firebase and GraphQL",
                 "Tasks and projects estimations"
             ]
         },
         {
-            title: "Frontend Web Developer, tiko Energy Solutions AG",
-            date: "Feb 2019 - Apr 2019",
-            ubication: "Zurich, Switzerland",
-            tasks: [
-                "Development of the Tiko virtual power plant web app with ReactJS"
-            ]
-        },
-        {
-            title: "Junior Developer, Totemcat",
+            title: "Junior Developer(Internship), Totemcat",
             date: "Oct 2016 - Apr 2017",
             ubication: "Madrid, Spain",
             tasks: [
-                "Development of different web apps"
+                "Development of different webapps using JavaScript related technologies"
             ]
         }
     ];
@@ -43,8 +62,16 @@ function Body() {
     ];
     const coursesData = [
         {
+            title: "Master Gatsby, Wes Bos",
+            date: "Dec 2020"
+        },
+        {
             title: "NgRx Essentials, NgSpain",
             date: "Nov 2019"
+        },
+        {
+            title: "Fullstack Advanced React and GraphQL, Wes Bos",
+            date: "Oct 2018"
         },
         {
             title: "Introducción al desarrollo web con Angular, Cursos Tech Institute Samsung-UPM",
